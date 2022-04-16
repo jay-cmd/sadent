@@ -136,7 +136,7 @@ table{
     font-weight: 500;
     margin: 25px;
     padding:25px;
-    font-size: 20px;
+    font-size: 26px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px black;
     letter-spacing: 1px;
@@ -192,7 +192,7 @@ table{
 }
 .drop-down h3{
     margin:5px 0px 10px 0px;
-    
+
 }
 .innovaton-sol-nav-bar{
     position: relative;
@@ -215,16 +215,17 @@ table{
     display: flex;
 }
 .innovation-solution-left-section{
-    width: 70%;
+    width: 85%;
     display: flex;
 }
 .innovation-solution-right-section{
     display: flex;
+    margin-right: 30px;
     flex-direction: column;
     justify-content: flex-start;
 }
 .innovation-solution-right-section img{
-    width: 350px;
+    width: 480px;
     margin: 15px;
     border-radius: 15px;
 }
@@ -234,4 +235,75 @@ table{
 }
 .padding{
     padding-top: 90px;
+}
+#gallery{
+  height: 100vh;
+  background-color: #DFF6F0;
+}
+.gallery-nav-bar{
+      height: 20%;
+      position: relative;
+}
+.gallery-background-text{
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.082);
+    margin: 0px;
+    padding: 100px 0px 50px 50px;
+}
+.gallery-front-text{
+    font-size: 40px;
+    margin: 0px;
+    position: absolute;
+    top: 135px;
+    left: 85px;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-img{
+    height: 350px;
+    border-radius: 25px;
+    margin: 10px 30px;
+}
+#videos{
+    height: 100vh;
+    background-color: #DFF6F0;
+}
+.videos-nav-bar{
+    height: 20%;
+    position: relative;
+}
+.videos-background-text{
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.082);
+    margin: 0px;
+    padding: 100px 0px 50px 50px;
+}
+.videos-front-text{
+    font-size: 40px;
+    margin: 0px;
+    position: absolute;
+    top: 135px;
+    left: 85px;
+}
+.video-wrapper{
+    width: 38%;
+    border: 0.5px solid grey;
+    border-radius: 25px;
+    
+}
+.videos-article{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+}
+.video-thumbnail{
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
